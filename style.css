@@ -1,3 +1,18 @@
-ul {
-  padding: 0;
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+/* Default styling */
+:root {
+  --modal-duration: 1s;
+  --primary-color: #30336b;
+  --secondary-color: #be2edd;
+}
+
+/* general styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
 }
