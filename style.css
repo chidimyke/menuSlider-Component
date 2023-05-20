@@ -15,6 +15,13 @@
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
+  transition: transform 0.3s ease;
+}
+
+/* The fooling style is controlled by the script tag */
+body.show-nav {
+  /* should tally with the width of the nav window */
+  transform: translateX(12rem);
 }
 
 /* Navigation slide bar styling*/
