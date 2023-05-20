@@ -105,3 +105,80 @@ button:focus {
   top: 20px;
   left: 20px;
 }
+
+/* call to action styling */
+.cta-btn {
+  padding: 12px 30px;
+  font-size: 20px;
+}
+
+/* body styling */
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Modal Styling */
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* toggle this on/off */
+  display: none;
+}
+
+.modal {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(12, 3, 94, 0.26);
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+}
+
+.modal-header {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 15px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  /* border-bottom: 1px solid #333; */
+}
+
+/* form styling */
+.modal-content {
+  padding: 20px;
+}
+
+.modal-form div {
+  margin: 15px 0;
+}
+
+.modal-form label {
+  display: block;
+}
+
+.modal-form .form-input {
+  padding: 8px;
+  width: 100%;
+}
+
+/* modal-toggle styling */
+.close-btn {
+  background: transparent;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
