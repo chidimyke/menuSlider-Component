@@ -18,10 +18,13 @@ body {
   transition: transform 0.3s ease;
 }
 
-/* The fooling style is controlled by the script tag */
+/* The following style is controlled by the script tag */
 body.show-nav {
   /* should tally with the width of the nav window */
+  /* this will make the body container move instead and not the nav content */
   transform: translateX(12rem);
+  /* because the nav is 12rem in width and the nav is set to -100% fully concealing the tab,
+  this declaration will make the body move by 12rem units on the x-axis to fully reveal the container */
 }
 
 /* Navigation slide bar styling*/
@@ -109,6 +112,7 @@ button:focus {
 .toggle {
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
+
   top: 20px;
   left: 20px;
 }
