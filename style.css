@@ -117,7 +117,7 @@ button:focus {
   left: 20px;
 }
 
-/* call to action styling */
+/* call to action button styling */
 .cta-btn {
   padding: 12px 30px;
   font-size: 20px;
@@ -131,7 +131,7 @@ button:focus {
   max-width: 800px;
 }
 
-/* Modal Styling */
+/* Modal window Styling */
 .modal-container {
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
